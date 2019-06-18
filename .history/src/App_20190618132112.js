@@ -14,7 +14,7 @@ class App extends Component {
     const citasLS = localStorage.getItem('citas');
     if (citasLS){
       this.setState({
-        citas: JSON.parse(citasLS)
+        citas: JSON.parse(citasLS);
       })
     }
   }
